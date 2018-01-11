@@ -15,10 +15,10 @@ Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75121562 "Chinese").<
 Ref: [link](http://blog.csdn.net/autocyz/article/details/52299889/ "Chinese").
 ### Step 2.3 Install cuDNN V5.1
 download cudnn <br/>
-Ref: [link](https://developer.nvidia.com/rdp/cudnn-archive "Chinese").
+Ref: [link](https://developer.nvidia.com/rdp/cudnn-archive "Chinese").<br/>
 install cudnn
-Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75121562 "Chinese").
-Ref: [link](http://blog.csdn.net/jhszh418762259/article/details/52958287?locationNum=8&fps=1 "Chinese").
+Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75121562 "Chinese").<br/>
+Ref: [link](http://blog.csdn.net/jhszh418762259/article/details/52958287?locationNum=8&fps=1 "Chinese").<br/>
 
 error: /sbin/ldconfig.real: /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5 is not a symbolic link <br/>
 solution: sudo ln -sf /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5.0.5 /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5 <br/>
