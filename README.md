@@ -2,6 +2,7 @@
 install DIGITS on Ubuntu16.04 <br />
 sliM & D.T. <br />
 2018-01-09 <br />
+Notice that: Most of the references are written in Chinese.
 
 ## Step 1 Install UBUNTU16.04
 Ref: [link](http://www.cnblogs.com/Duane/p/6776302.html"Chinese").
