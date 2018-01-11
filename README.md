@@ -29,6 +29,14 @@ Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/76043638 "Chinese").<
 ### Step 3.2 Install pip and easy-install
 ### Step 3.3 Install caffe and python dependences
 #### Step 3.3.1 Install pip
+#### Step 3.3.2 Clone caffe
+#### Step 3.3.3 Install dependences in /caffe/python/
+error: 
+solution: create a .sh file which contains<br/>
+for req in $(cat "requirements.txt"); do pip install $req; done <br/>
+then run sudo -H ./a.sh
+
+
 
 
 
