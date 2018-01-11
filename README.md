@@ -14,6 +14,15 @@ Solution: disable secure boot, you may set up a supervisor password before tryin
 Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75121562 "Chinese").<br/>
 Ref: [link](http://blog.csdn.net/autocyz/article/details/52299889/ "Chinese").
 ### Step 2.3 Install cuDNN V5.1
+download cudnn <br/>
+Ref: [link](https://developer.nvidia.com/rdp/cudnn-archive "Chinese").
+install cudnn
+Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75121562 "Chinese").
+error: /sbin/ldconfig.real: /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5 is not a symbolic link <br/>
+solution: sudo ln -sf /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5.0.5 /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5 <br/>
+
+
+
 
 
 
