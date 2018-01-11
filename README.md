@@ -25,7 +25,10 @@ solution: sudo ln -sf /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5
 ## Step 3 Install caffe and digits
 Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/76043638 "Chinese").<br/>
 
-### Step 3.1 Install 
+### Step 3.1 Install dependences
+### Step 3.2 Install pip and easy-install
+### Step 3.3 Install caffe and python dependences
+#### Step 3.3.1 Install pip
 
 
 
