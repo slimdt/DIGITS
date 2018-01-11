@@ -61,7 +61,7 @@ solution: sudo -H apt install python-pydot python-pydot-ng graphviz <br/>
 You may skip the previous solution and use this solution directly, anyway I did not try.
 ### Step 3.5 Install DIGITS
 Ref: [link](https://github.com/NVIDIA/DIGITS/blob/master/docs/Configuration.md).<br/>
-
+Then http://localhost:5000/ in browser <br/> 
 
 
 
