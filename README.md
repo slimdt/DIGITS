@@ -50,7 +50,7 @@ Makefile:567: recipe for target'.build_release/lib/libcaffe.so.1.0.0-rc3' failed
 
 make: *** [.build_release/lib/libcaffe.so.1.0.0-rc3] Error 1<br/>
 solution: Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75136657 "Chinese").<br/>
-
+Hint: find -name "libhdf5_serial.so.10.1.0"
 
 
 
