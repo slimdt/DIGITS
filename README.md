@@ -52,6 +52,15 @@ make: *** [.build_release/lib/libcaffe.so.1.0.0-rc3] Error 1<br/>
 solution: Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75136657 "Chinese").<br/>
 Hint: find -name "libhdf5_serial.so.10.1.0"
 
+error: pytest error, no pydot<br/>
+solution: <br/>
+sudo -H pip install pydot<br/>
+sudo -H pip install pydot graphviz<br/>
+this solution triggered a new error: no dot found in the path <br/>
+solution: sudo -H apt install python-pydot python-pydot-ng graphviz <br/>
+You may skip the previous solution and use this solution directly, anyway I did not try.
+
+
 
 
 
