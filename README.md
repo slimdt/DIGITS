@@ -35,6 +35,21 @@ error:
 solution: create a .sh file which contains<br/>
 for req in $(cat "requirements.txt"); do pip install $req; done <br/>
 then run sudo -H ./a.sh
+### Setp 3.4 Compile Caffe
+error:<br/>
+/usr/bin/ld: cannot find -lhdf5_hl<br/>
+
+/usr/bin/ld: cannot find -lhdf5<br/>
+
+/usr/bin/ld: cannot find -lopenblas<br/>
+
+collect2: error: ld returned 1 exit status<br/>
+
+Makefile:567: recipe for target'.build_release/lib/libcaffe.so.1.0.0-rc3' failed<br/>
+
+make: *** [.build_release/lib/libcaffe.so.1.0.0-rc3] Error 1<br/>
+solution: Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/75136657 "Chinese").<br/>
+
 
 
 
