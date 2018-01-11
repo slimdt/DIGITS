@@ -22,6 +22,10 @@ Ref: [link](http://blog.csdn.net/jhszh418762259/article/details/52958287?locatio
 
 error: /sbin/ldconfig.real: /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5 is not a symbolic link <br/>
 solution: sudo ln -sf /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5.0.5 /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.5 <br/>
+## Step 3 Install caffe and digits
+Ref: [link](http://blog.csdn.net/cdwxx1234/article/details/76043638 "Chinese").<br/>
+
+### Step 3.1 Install 
 
 
 
