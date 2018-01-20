@@ -5,6 +5,7 @@ sliM & D.T. <br />
 Notice that: Most of the references are written in Chinese.
 
 ## Step 1 Install UBUNTU16.04
+I used Rufus + UBUNTU16.04.ios to create the bootable usb stick.
 Ref: [link](http://www.cnblogs.com/Duane/p/6776302.html"Chinese").
 ## Step 2 Install CUDA AND cuDNN
 ### Step 2.1 Install NVIDIA driver
