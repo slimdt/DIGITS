@@ -64,7 +64,10 @@ You may skip the previous solution and use this solution directly, anyway I did 
 ### Step 3.5 Install DIGITS
 Ref: [link](https://github.com/NVIDIA/DIGITS/blob/master/docs/Configuration.md).<br/>
 Then http://localhost:5000/ in browser <br/> 
-
+error:OSError: [Errno 13] Permission denied: '/home/xin/digits/digits/jobs'<br/>
+solution: sudo chmod 777 /home/xin/digits/digits/jobs
+error: install the python-tk package <br/>
+solution:sudo apt-get install python-tk <br/>
 
 
 
